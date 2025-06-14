@@ -14,15 +14,15 @@ form.addEventListener('submit', event => {
   createPromise(delay, state)
     .then(delay => {
       iziToast.success({
-        title: '✅ Fulfilled',
-        message: `Fulfilled promise in ${delay}ms`,
+        title: '✅ Yerine getirildi',
+        message: ` Yerine getirilen söz ${delay}ms`,
         position: 'topRight',
       });
     })
     .catch(delay => {
       iziToast.error({
-        title: '❌ Rejected',
-        message: `Rejected promise in ${delay}ms`,
+        title: '❌ Reddedilmiş',
+        message: ` Reddedilen söz ${delay}ms`,
         position: 'topRight',
       });
     });
