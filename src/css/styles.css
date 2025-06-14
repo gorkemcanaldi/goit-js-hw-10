@@ -8,6 +8,16 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+  padding: 10px;
 }
 
 /* Input ve buton alanı */
