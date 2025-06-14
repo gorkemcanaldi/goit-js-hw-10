@@ -28,8 +28,8 @@ const options = {
     const selectedDate = selectedDates[0];
     if (selectedDate <= new Date()) {
       iziToast.warning({
-        title: 'Warning',
-        message: 'Please choose a date in the future',
+        title: 'Uyarı',
+        message: 'Lütfen gelecekte bir tarih seçin',
       });
       startBtn.disabled = true;
     } else {
